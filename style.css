@@ -1,0 +1,228 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+      font-family: 'Inter', sans-serif;
+    
+}
+body{
+    background-color: black;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 100px;
+}
+.header{
+    width: 1440px;
+
+}
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav ul{
+    display: flex;
+    gap: 40px;
+}
+.nav ul li{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-shadow: 0px 4px 7.4px  #FFFFFF;
+    color: white;
+}
+
+.content{
+    width: 1440px;
+    height: 594px;
+    background-image: url(img/Rectangle\ 2\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 31px;
+margin-top: 50px;
+}
+.content h1{
+    width: 602px;
+    height: 75px;
+    border-radius: 30px;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77.45px;
+    box-shadow: 16px 18px 28px 0px #FFFFFF40;
+}
+
+.content-elements{
+    display: flex;
+    justify-content: space-between;
+}
+.element{
+    position: relative;
+    margin-top: 185px;
+}
+
+.red{
+    width: 237px;
+    height: 209px;
+    background-color: #F70101;
+    box-shadow: 0px 18px 26.5px 0px #FB000040;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: center;
+    align-content: center;
+    color: white;
+    text-shadow: 0px 4px 7.4px  #FFFFFF;
+    position: absolute;
+    left: 119px;
+    bottom: 104px;
+}
+.green{
+    width: 237px;
+    height: 209px;
+    background-color: #32FB00;
+    color: red;
+    box-shadow: 0px 22px 27.8px 0px #FFF9F940;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: center;
+    align-content: end;
+    margin-bottom:30px;
+    text-shadow: 0px 4px 7.4px  #FFFFFF;
+}
+.red2{
+    width: 411px;
+    height: 209px;
+    border-radius: 100px ;
+    left: -91px;
+}
+.red3{
+    left: -119px;
+}
+.devicer h1{
+    width: 552px;
+height: 75px;
+border-radius: 30px ;
+text-align: center;
+align-content: center;
+background-color: #FFFFFF;
+font-family: Inter;
+font-size: 64px;
+font-weight: 700;
+line-height: 77.45px;
+text-align: center;
+box-shadow: 16px 18px 28px 0px #FFFFFF40;
+margin: 0 730px;
+margin-top: 50px;
+
+}
+.box{
+background-color:  #7B2525;
+width: 368px;
+height: 332px;
+padding-top: 60px;
+margin-left: 87px;
+
+}
+
+.box h4{
+    font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+line-height: 38.73px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+
+text-shadow: 0px 4px 7.4px  #FFFFFF;
+
+}
+.box p{
+    width: 265px;
+height: 96px;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 24.2px;
+text-align: center;
+margin-top: 97px;
+margin-left: 52px;
+color: white;
+}
+.box2{
+    background-color:  #7B2525;
+width: 368px;
+height: 332px;
+
+}
+.box3{
+    background-color:  #7B2525;
+width: 368px;
+height: 332px;
+}
+.inf-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.box2 h4{
+    font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+line-height: 38.73px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+margin-top: 60px;
+text-shadow: 0px 4px 7.4px  #FFFFFF;
+
+}
+
+.box3 h4{
+    font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+line-height: 38.73px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+margin-top: 60px;
+text-shadow: 0px 4px 7.4px  #FFFFFF;
+
+}
+.box3 img{
+    width: 312px;
+    height: 193px;
+    margin:  15px 28px;
+    
+
+}
+.box2 img{
+    width: 336px;
+height: 106px;
+margin-top: 76px;
+margin-left: 14px;
+}
+.footer{
+    width: 1440px;
+    margin-top: 200px;
+}
